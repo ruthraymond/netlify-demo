@@ -55,3 +55,23 @@ li {
 .navigation ul li {
   margin-left: 20px;
 }
+
+.projects {
+  position: relative;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.projects h2 {
+  margin-bottom: 10px;
+}
+
+.projects div article {
+  padding: 40px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.projects div article * {
+  color: black;
+}
