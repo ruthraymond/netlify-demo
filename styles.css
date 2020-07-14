@@ -42,6 +42,7 @@ li {
 
 .navigation {
   position: fixed;
+  z-index: 100;
   width: calc(100vw - 40px);
   padding: 20px;
   display: flex;
