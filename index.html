@@ -11,7 +11,7 @@
       <h2>RS</h2>
       <ul>
         <li><a href="#projects">Projects</a></li>
-        <li>Get in touch</li>
+        <li><a href="#contact">Get in touch</a></li>
       </ul>
     </nav>
     <header class="intro">
@@ -75,6 +75,26 @@
         </article>
       </div>
     </main>
+    <form
+      class="contact"
+      id="contact"
+      name="contact"
+      method="POST"
+      data-netlify="true"
+    >
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
   </body>
   <script src="main.js"></script>
 </html>
